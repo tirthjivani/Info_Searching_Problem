@@ -6,7 +6,7 @@
 
 - `Repeat: `
 
-- - `If the frontier is empty, then no solution.`
+  - `If the frontier is empty, then no solution.`
   - `Remove a node from the frontier.`
   - `If node contains goal state, return the solution.`
   - `Expand node, add resulting nodes to the frontier.`
@@ -21,7 +21,7 @@
 
 - `Repeat: `
 
-- - `If the frontier is empty, then no solution.`
+  - `pIf the frontier is empty, then no solution.`
   - `Remove a node from the frontier.`
   - `If node contains goal state, return the solution.`
   - **`Add the node to the explored set`** 
