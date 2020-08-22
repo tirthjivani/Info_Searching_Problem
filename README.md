@@ -48,9 +48,7 @@ Search strategies that uses no problem-specific knowledge.
    Search algorithm that always expands the deepest node in the frontier. Frontier is Stack
    
    ```python
-   def solve(self):
-        """Finds a solution to maze, if one exists."""
-
+   def DFS(self):
         # Keep track of number of states explored
         self.num_explored = 0
 
@@ -106,7 +104,10 @@ Search strategies that uses no problem-specific knowledge.
 
 Search strategy that uses problem-specific knowledge like coordinates to find solutions more efficiently.
 
-1. Greedy Best-first Search
+1. **Greedy Best-first Search**
+
+  Biased greedy choices are made at the point of decision making node where the lower cost is node is selected.
+  
 2. A* Search
 
 
