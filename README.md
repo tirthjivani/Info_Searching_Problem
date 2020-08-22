@@ -108,7 +108,7 @@ Search strategy that uses problem-specific knowledge like coordinates to find so
 
    Biased greedy choices are made at the point of decision making node where the lower cost is node is selected.
   
-2. **A* Search**
+2. **A\* Search**
 
    Path is selcted according to the Manhattan distance of the current node. 
 
